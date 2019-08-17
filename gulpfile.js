@@ -7,11 +7,11 @@ var rename = require('gulp-rename');
 var paths = {
   styles: {
     src: 'sass/**/*.scss',
-    dest: 'css/'
+    dest: './'
   },
   scripts: {
     src: 'js/**/*.js',
-    dest: 'js/'
+    dest: './'
   }
 }
 
