@@ -19,7 +19,7 @@ function styles() {
   return gulp.src(paths.styles.src)
     .pipe(sass().on('error', sass.logError))
     .pipe(cssnano())
-    .pipe(rename('main.css'))
+    .pipe(rename('main1.css'))
     .pipe(gulp.dest('./'));
 }
 

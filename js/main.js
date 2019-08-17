@@ -12,5 +12,8 @@ var setBehaviorLogo = function() {
 
 /* On Load */
 (function() {
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
   // window.addEventListener('scroll', setBehaviorLogo);
 })();
